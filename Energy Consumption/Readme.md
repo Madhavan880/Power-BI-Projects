@@ -25,40 +25,40 @@ The dashboard highlights the following performance indicators:
 The project uses a structured data model with:
 
 1️. Energy Consumption Table
-Date
-Building
-Energy Type
-Consumption Units
-Generated Relationship ID
+* Date
+* Building
+* Energy Type
+* Consumption Units
+* Generated Relationship ID
 
 2️. Rates Table
-Year
-Energy Type
-Price per Unit (INR)
-Unique ID (Year + Energy Type)
+* Year
+* Energy Type
+* Price per Unit (INR)
+* Unique ID (Year + Energy Type)
 
 3️. Building Master Table
-Building Name
-State
-Country (India)
+* Building Name
+* State
+* Country (India)
 
 Relationships were created using a composite key (Year + Energy Type) to calculate dynamic cost measures.
 
 # DAX Measures Used
 
 Examples of key measures:
-Total Units Consumed
-Total Cost (Consumption × Rate)
-Percentage Contribution by Energy Type
-Category-level Cost Calculation
-Dynamic Insight Text Measures
+* Total Units Consumed
+* Total Cost (Consumption × Rate)
+* Percentage Contribution by Energy Type
+* Category-level Cost Calculation
+* Dynamic Insight Text Measures
 
 # Tools & Technologies
 
-Power BI Desktop
-DAX (Data Analysis Expressions)
-Power Query (Data Transformation)
-Data Modeling & Relationships
+* Power BI Desktop
+* DAX (Data Analysis Expressions)
+* Power Query (Data Transformation)
+* Data Modeling & Relationships
 
 # Requirements
 
