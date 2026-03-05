@@ -1,0 +1,290 @@
+🏥 Healthcare Analytics Report (2020–2025)
+📌 Project Overview
+
+The Healthcare Analytics Report is a Power BI dashboard built using a synthetic hospital dataset containing 9,742 patient records from 2020 to 2025.
+
+The report is divided into two main analytical sections:
+
+Patient Demographics
+
+Clinical Insights
+
+The dashboard provides interactive, KPI-driven insights into patient distribution, admission patterns, medical conditions, billing analysis, medication usage, doctor performance, and overall hospital operations.
+
+This report supports data-driven decision-making for hospital administrators and healthcare analysts.
+
+📂 Dataset Summary
+
+The dataset consists of:
+
+9,742 patients
+
+14 structured attributes
+
+20 doctors
+
+6 medical conditions
+
+4 admission types
+
+8 medications
+
+3 test result categories
+
+Billing calculated based on disease & hospital stay duration
+
+Admission period: 2020–2025
+
+The dataset was cleaned and validated using Microsoft Excel, then modeled in Power BI with relationships and DAX measures.
+
+🛠 Data Modeling & Preparation in Power BI
+🔹 Supporting Tables
+
+Date Table (for time intelligence analysis)
+
+Dedicated Measures Table for KPI calculations
+
+🔹 Calculated Columns
+
+Age Groups (Pediatrics, Young Adults, Adults, Elderly, 90+)
+
+Length of Stay (Discharge – Admission Date)
+
+Year & Month extraction
+
+Billing aggregation
+
+🔹 DAX Measures
+
+Total Patients
+
+Average Age
+
+Average Stay (Days)
+
+Average Billing Cost
+
+Admission Type %
+
+Test Result Distribution %
+
+Doctor-wise Average Rating
+
+Monthly Admission Count
+
+📊 Dashboard Section 1: Patient Demographics
+
+This section provides a comprehensive overview of patient characteristics and admission distribution.
+
+🔹 Key KPIs Displayed
+
+Total Patients: 9,742
+
+Gender Distribution: 4,926 Male | 4,816 Female
+
+Average Age: 46
+
+Average Stay: 8 Days
+
+Average Billing Cost: ₹22K
+
+Average Satisfaction Rating: 3.0 / 5
+
+🔹 Admission Type Distribution
+
+Referral
+
+Emergency
+
+Urgent
+
+Planned
+
+The distribution is relatively balanced, with Emergency and Referral slightly leading.
+
+🔹 Test Result Distribution
+
+Normal
+
+Critical
+
+Abnormal
+
+The distribution is nearly even across all three categories, indicating consistent case severity spread.
+
+🔹 Age Group Distribution
+
+Adults: 3,290
+
+Elderly: 2,862
+
+Pediatrics: 1,749
+
+Young Adults: 1,731
+
+90+: 110
+
+Adults and Elderly patients represent the largest portion of hospital admissions.
+
+🔹 Blood Group Distribution (by Gender)
+
+The dashboard analyzes blood group patterns across:
+A+, A-, B+, B-, AB+, AB-, O+, O-
+
+The distribution is relatively uniform across genders with minor variations.
+
+🔹 Monthly Trend of Incoming Patients
+
+Visualizes admission count trends across months.
+
+Helps identify peak and low admission periods.
+
+📊 Dashboard Section 2: Clinical Insights
+
+This section focuses on medical conditions, operational metrics, medication usage, and doctor performance.
+
+🔹 Medical Conditions & Age-wise Distribution
+
+Medical conditions analyzed:
+
+Hypertension
+
+Cardiac Disease
+
+Fracture
+
+Asthma
+
+Viral Infection
+
+Diabetes
+
+The donut chart shows near-balanced distribution across conditions (~16–17% each).
+
+Age-wise breakdown highlights which age groups are more affected by specific diseases.
+
+🔹 Top Administered Medications
+
+Medications analyzed:
+
+Cough Syrup
+
+Metformin
+
+Ibuprofen
+
+Aspirin
+
+Paracetamol
+
+Amoxicillin
+
+Insulin
+
+Atorvastatin
+
+The visual compares total administration count, showing relatively balanced prescription patterns.
+
+🔹 Room Utilization by Age Group
+
+Room allocation trends across:
+
+Pediatrics
+
+Young Adults
+
+Adults
+
+Elderly
+
+90+
+
+Adults and Elderly groups utilize the highest room capacity.
+
+🔹 Top 15 Doctors by Average Rating
+
+Displays doctor name
+
+Total patients handled
+
+Average satisfaction rating
+
+Average ratings are around 3.0–3.1, showing consistent patient experience levels.
+
+🔹 Billing Analysis by Test Result
+
+The dashboard compares average billing amount based on:
+
+Normal
+
+Critical
+
+Abnormal
+
+Patients with Normal test results show slightly higher average billing, followed by Critical and Abnormal.
+
+🎯 Business Questions Answered
+
+This dashboard answers critical healthcare operational questions:
+
+Who are our patients?
+
+Which age group contributes most to admissions?
+
+What are the most common medical conditions?
+
+Which admission type dominates hospital intake?
+
+What is the average hospital stay duration?
+
+How does billing vary across medical conditions and test results?
+
+Which doctors receive the highest patient ratings?
+
+What medications are most frequently administered?
+
+📈 Key Insights Derived
+
+Majority of patients fall under Adult and Elderly categories
+
+Average hospital stay is 8 days
+
+Average billing cost per patient is ₹22,000
+
+Patient satisfaction remains stable at 3.0/5
+
+Disease distribution is evenly spread (~16–17%)
+
+Room utilization is highest among Adults & Elderly
+
+Medication usage is balanced across treatment types
+
+📌 Conclusion
+
+The Healthcare Analytics Dashboard transforms 9,742 hospital records into actionable intelligence through structured data modeling and DAX-driven insights.
+
+It enables hospital administrators to:
+
+Monitor operational efficiency
+
+Evaluate doctor performance
+
+Track patient demographics
+
+Analyze cost and billing trends
+
+Optimize room and resource utilization
+
+Improve overall patient care strategies
+
+This project demonstrates strong skills in:
+
+Data Cleaning (Excel)
+
+Data Modeling (Power BI)
+
+DAX Calculations
+
+Healthcare KPI Analysis
+
+Dashboard Design & Storytelling
