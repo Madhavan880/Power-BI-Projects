@@ -151,3 +151,8 @@ This project highlights practical skills in:
 * Healthcare Data Analysis
 * Interactive Dashboard Development
 By integrating demographic, clinical, financial, and operational metrics into a unified analytical framework, the dashboard provides a 360-degree view of hospital performance and patient care outcomes.
+
+# Author
+
+Madhavan Shanmugam
+Power BI Developer | Data Analyst
